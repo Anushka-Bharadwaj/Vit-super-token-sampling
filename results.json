@@ -1,0 +1,101 @@
+{
+    "train_losses": [
+        1.5304970840613048,
+        1.4315948784351349,
+        1.408968190352122,
+        1.4189295868078868,
+        1.4234109322230022
+    ],
+    "val_losses": [
+        1.3910575310389202,
+        1.45296843846639,
+        1.377556284268697,
+        1.4135717550913494,
+        1.4126249154408772
+    ],
+    "train_top1_accuracies": [
+        27.027027027027028,
+        25.405405405405407,
+        28.37837837837838,
+        21.35135135135135,
+        27.297297297297295
+    ],
+    "train_top3_accuracies": [
+        74.5945945945946,
+        75.13513513513513,
+        70.54054054054055,
+        72.43243243243244,
+        75.94594594594595
+    ],
+    "val_top1_accuracies": [
+        23.52941176470588,
+        23.52941176470588,
+        23.52941176470588,
+        23.52941176470588,
+        23.52941176470588
+    ],
+    "val_top3_accuracies": [
+        76.47058823529412,
+        76.47058823529412,
+        70.58823529411765,
+        70.58823529411765,
+        76.47058823529412
+    ],
+    "test_loss": 1.4133470058441162,
+    "test_metrics": {
+        "accuracy_score": 0.3125,
+        "top_1_accuracy": 0.3125,
+        "top_3_accuracy": 0.7916666666666666,
+        "precision_micro": 0.3125,
+        "precision_macro": 0.078125,
+        "precision_weighted": 0.09765625,
+        "recall_micro": 0.3125,
+        "recall_macro": 0.25,
+        "recall_weighted": 0.3125,
+        "f1_micro": 0.3125,
+        "f1_macro": 0.11904761904761904,
+        "f1_weighted": 0.1488095238095238,
+        "auc_micro": 0.620949074074074,
+        "auc_macro": 0.7174297194034036,
+        "auc_weighted": 0.7451996468443838
+    },
+    "best_validation": {
+        "epoch": 1,
+        "metrics": {
+            "accuracy_score": 0.23529411764705882,
+            "top_1_accuracy": 0.23529411764705882,
+            "top_3_accuracy": 0.7647058823529411,
+            "precision_micro": 0.23529411764705882,
+            "precision_macro": 0.058823529411764705,
+            "precision_weighted": 0.05536332179930796,
+            "recall_micro": 0.23529411764705882,
+            "recall_macro": 0.25,
+            "recall_weighted": 0.23529411764705882,
+            "f1_micro": 0.23529411764705882,
+            "f1_macro": 0.09523809523809523,
+            "f1_weighted": 0.0896358543417367,
+            "auc_micro": 0.563921568627451,
+            "auc_macro": 0.7148589743589744,
+            "auc_weighted": 0.7186123680241326,
+            "loss": 1.3910575310389202
+        }
+    },
+    "model_statistics": {
+        "flops": "158.78 MMac",
+        "ptflops_params": "1.39 M",
+        "total_params": 1388036,
+        "estimated_memory_usage_bytes": 5552144,
+        "avg_inference_time_seconds": 0.013628981113433837
+    },
+    "training_time": {
+        "total_seconds": 478.45348167419434,
+        "formatted": "0:07:58",
+        "average_epoch_seconds": 95.69069633483886
+    },
+    "plots": {
+        "top1_top3_comparison": "C:\\\\Users\\\\Hp\\\\CascadeProjects\\\\vision_transformer\\\\STS_vit\\top1_top3_comparison.png",
+        "loss_curves": "C:\\\\Users\\\\Hp\\\\CascadeProjects\\\\vision_transformer\\\\STS_vit\\loss_curves.png",
+        "test_confusion_matrix": "C:\\\\Users\\\\Hp\\\\CascadeProjects\\\\vision_transformer\\\\STS_vit\\test_confusion_matrix.png",
+        "train_confusion_matrix": "C:\\\\Users\\\\Hp\\\\CascadeProjects\\\\vision_transformer\\\\STS_vit\\train_conf_matrix.png"
+    }
+}
